@@ -1,0 +1,418 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* HEADER */
+header {
+    background-color: white;
+    box-shadow: 0px 6px 47px 3px rgba(0, 151, 128, 0.54);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+nav ul  {
+    display: inline-flex;
+    gap: 1.5rem;
+    font-size: 16px;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    color: #b5b6b8;
+    transition: all 500ms ease;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+}
+nav ul li a:hover {
+    color: #00c3a5;
+}
+
+/* lead section */
+
+#leadsection {
+    margin-top: 130px;
+    text-align: center;
+}
+    #leadsection h1 {
+    padding: 20px 0 10px 0;
+    font-weight: 300;
+    font-size: 33px;
+    font-family: 'Work Sans', sans-serif;
+    }
+#leadsection .forex {
+    display: flex;
+    text-align: left;
+    padding: 30px 150px;
+}
+#leadsection .forex p {
+    padding-right: 30px;
+    text-align: center;
+    margin: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    width: 100%;
+}
+
+/* section one */
+#two {
+    display: flex;
+    justify-content: center;
+    margin: 37px 200px 25px;
+    }
+#two .twoChild {
+    color: #ffffff;
+    padding: 42px 42px 0 42px;
+    border-radius: 10px;
+    justify-content: space-between;
+    height: 345px;
+    margin: 0px 20px;
+    display: grid;
+    }
+#two .twoChild h1 {
+    margin: 10px 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    }
+#two .twoChild p {
+    margin-bottom: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    }
+#two .twoChild .selection select{
+    color: #ffffff;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    }
+#two .twoChild:nth-child(1) {
+    background-color: #00c3a5;
+    }
+#two .twoChild:nth-child(2) {
+    background-color: #3d83df;
+    }
+#two .twoChild:nth-child(3) {
+    background-color: #1b2734;
+    } 
+#two .twoChild:nth-child(1) .selection select {
+    background-color: #00c3a5;
+    }
+#two .twoChild:nth-child(2) .selection select {
+    background-color: #3d83df;
+    } 
+#two .twoChild:nth-child(3) .selection select {
+    background-color: #1b2734;
+    }
+  
+  
+    /* BANNER */
+  
+#banner img{
+    width: 100%;
+    }
+  
+  
+  
+#third {
+    background-color: #d0faf4;
+    padding: 55px 50px 0;
+    }
+#third .container {
+    display: flex;
+    justify-content: space-around;
+    }
+#third .container .firstContainer {
+    padding: 60px 0 0 50px;
+    }
+#third .container .firstContainer h1 {
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: #00c3a5;
+    margin-bottom: 30px;
+    }
+#third .container .firstContainer p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #747474;
+    margin-bottom: 50px;
+    }
+.section4fourparts {
+    display: flex;
+    margin-right: 50px;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: 100px;
+    }
+.section4fourparts h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    }
+.section4fourparts p {
+    font-size: 0.8125em;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+    }
+#leader {
+    margin-bottom: 20px;
+    }
+#appointments {
+    margin-bottom: 20px;
+    }
+#leader,
+#patients,
+#appointments,
+#doctors {
+    display: flex;
+    height: 240px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+  }
+#leader,
+#patients,
+#appointments,
+#doctors,
+    h3 {
+    margin-bottom: 10px;
+    }
+#leader,
+#patients,
+#appointments,
+#doctors,
+p {
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 400;
+  }
+  #leader img,
+  #patients img,
+  #appointments img,
+  #doctors img {
+    width: 25px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .section4fourparts div {
+    height: 500px;
+    width: 250px;
+  } 
+  
+  
+  
+  /* SECTION 2 */
+  
+  #section5 {
+    margin: 100px 70px 70px 70px;
+    text-align: center;
+  }
+  #section5 h1 {
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  #section5 p {
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #747474;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  /* SECTION 3 */
+  #section6 .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #section6 .container .box {
+    margin: 0 10px 10px 10px;
+    transition: all 1000ms ease;
+  }
+  #section6 .container .box:hover {
+    box-shadow: 0px 6px 47px 3px #b5b6b8;
+  }
+  
+  #section6 .container .box .inner {
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+  }
+  #section6 .container .box .inner p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #747474;
+  }
+  #section6 .container .box .inner button {
+    background-color: #3d83df;
+    padding: 10px 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 10px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* SECTION 4*/
+  #section7 {
+    margin: 130px 0;
+    text-align: center;
+  }
+  #section7 h1 {
+    margin-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #333333;
+  }
+  #section7 button {
+    border: none;
+    background-color: #3d83df;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 13px;
+    border-radius: 3px;
+  }
+  
+  /* footer */
+  
+  footer {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #747474;
+    padding: 0 50px;
+  }
+  
+  
+  
+  @media screen and (max-width: 1024px) {
+    
+    header {
+      background-color: #ffffff;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+    header a img {
+      text-align: center;
+    }
+    header nav {
+      display: none;
+    }
+    #hero img {
+      display: none;
+    }
+    #hero .para {
+      display: block;
+      width: 100%;
+      padding: 30px 50px;
+    }
+    #hero .para p {
+      margin-bottom: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    #two {
+      display: block;
+      margin: 30px 50px;
+    }
+    #two .twoChild {
+      margin-bottom: 30px;
+    }
+    #third .container {
+      display: block;
+      text-align: center;
+    }
+    #third .container .firstContainer img {
+      display: none;
+    }
+  
+#section6 .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    }
+  
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    #two .twoChild {
+      padding: 10px 10px 0 10px;
+    }
+    #two .twoChild .selection select {
+      width: 100%;
+    }
+  
+    #section6 .container {
+      display: grid;
+      grid-template-columns: auto;
+      justify-content: center;
+      align-items: center;
+    }
+    #third {
+      display: grid;
+      grid-template-columns: auto;
+      justify-content: center;
+      align-items: center;
+      padding: 55px 20px 0;
+    }
+    #third .container {
+      width: auto;
+    }
+    #third .container .firstContainer {
+      padding: 60px 0 0 0;
+    }
+    #third .container .section4fourparts {
+      display: grid;
+      grid-template-columns: auto;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    }
+    #third .container .section4fourparts div {
+      margin: auto;
+    } 
+  }
